@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaGames.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/magicsquare/LoShuMagicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/magicsquare/MagicSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_001.java" afterDir="false" />
+    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
+      <change afterPath="$PROJECT_DIR$/src/gameofcraps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/magicsquare/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/MagicSquare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,8 +90,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670070716784</updated>
-      <workItem from="1670070718316" duration="2351000" />
+      <workItem from="1670070718316" duration="4005000" />
     </task>
+    <task id="LOCAL-00001" summary="magic sqaure">
+      <created>1670073221496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670073221496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +115,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="magic sqaure" />
+    <option name="LAST_COMMIT_MESSAGE" value="magic sqaure" />
   </component>
 </project>

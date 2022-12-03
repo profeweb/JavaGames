@@ -16,25 +16,15 @@ public class Test_MagicSquare_001 extends PApplet {
     }
 
     public void setup(){
-        frameRate(120);
         background(255);
         m = new MagicSquare();
-    }
 
-    public void draw(){
-        background(255);
-        m.displayBoard(this, 50, 50, width-100, height-100);
-        m.displayTries(this, 50, 30);
-        m.displayMagicSquare(this, width-50, 30);
-        if(!m.IsMagicSquare() && m.nextTry){
+        while(!m.IsMagicSquare()) {
             m.nextTry();
         }
-    }
-
-    public void keyPressed(){
-        if(key=='n' || key=='N'){
-            m.nextTry = !m.nextTry;
-        }
+        m.displayBoard(this, 50, 50, width - 100, height - 100);
+        m.displayTries(this, 50, 30);
+        noLoop();
     }
 
 }

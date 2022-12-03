@@ -11,7 +11,6 @@ public class MagicSquare {
     private static Random rand = new Random();
     int[][] numbers = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
     int counter;
-    boolean nextTry = false;
 
     public MagicSquare(){
         this.counter = 0;
@@ -20,15 +19,6 @@ public class MagicSquare {
     public void nextTry(){
         counter++;
         SwitchCells();
-    }
-
-    private void printBoard() {
-        for (int i = 0; i < 3; i++) {
-            for (int c = 0; c < 3; c++) {
-                System.out.print(numbers[i][c] + " ");
-            }
-            System.out.println("");
-        }
     }
 
     public boolean IsMagicSquare() {
@@ -65,8 +55,7 @@ public class MagicSquare {
     }
 
     public void displayBoard(PApplet p5, float x, float y, float w, float h){
-        p5.pushStyle();
-        p5.rectMode(CORNER);
+
         float wCell = w / 3;
         float hCell = h / 3;
 
@@ -78,30 +67,11 @@ public class MagicSquare {
                 p5.text(numbers[f][c], x + c*wCell + wCell/2, y + f*hCell + hCell/2);
             }
         }
-        p5.popStyle();
     }
 
     public void displayTries(PApplet p5, float x, float y){
-        p5.pushStyle();
         p5.fill(0); p5.textSize(24); p5.textAlign(LEFT);
         p5.text("Tries: "+this.counter, x, y);
-        p5.popStyle();
     }
-
-    public void displayMagicSquare(PApplet p5, float x, float y){
-        p5.pushStyle();
-        p5.fill(0); p5.textSize(24); p5.textAlign(RIGHT);
-        boolean b = IsMagicSquare();
-        String answer = b ? "YES" : "NO";
-        if(b){
-            p5.fill(0, 255, 0);
-        }
-        else {
-            p5.fill(255, 0,0);
-        }
-        p5.text("Magic Square: "+answer, x, y);
-        p5.popStyle();
-    }
-
 
 }
