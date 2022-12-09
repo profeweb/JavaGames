@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
+      <change afterPath="$PROJECT_DIR$/src/magicsquare/MagicSquareN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_002.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/magicsquare/LoShuMagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/LoShuMagicSquare.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,39 +47,13 @@
       <recent name="magicsquare" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.Test_MagicSquare_002">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tictactoe.App" />
       <module name="JavaGames" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tictactoe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eightQueens.EightQueens" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eightQueens.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameOfCraps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gameOfCraps.GameOfCraps" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gameOfCraps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,6 +74,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoShuMagicSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="magicsquare.LoShuMagicSquare" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="magicsquare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test_MagicSquare_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="magicsquare.Test_MagicSquare_001" />
       <module name="JavaGames" />
@@ -110,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_MagicSquare_002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="magicsquare.Test_MagicSquare_002" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="magicsquare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_MagicSquare_002" />
+        <item itemvalue="Application.Test_MagicSquare_001" />
+        <item itemvalue="Application.LoShuMagicSquare" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.KnightTour" />
-        <item itemvalue="Application.EightQueens" />
-        <item itemvalue="Application.GameOfCraps" />
-        <item itemvalue="Application.Test_MagicSquare_001" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +132,9 @@
       <option name="presentableId" value="Default" />
       <updated>1670070716784</updated>
       <workItem from="1670070718316" duration="4303000" />
-      <workItem from="1670076214828" duration="434000" />
+      <workItem from="1670076214828" duration="1364000" />
+      <workItem from="1670326628901" duration="294000" />
+      <workItem from="1670584193748" duration="2110000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -159,7 +164,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670076321984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="magic sqaure">
+      <created>1670076918635</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076918635</updated>
+    </task>
+    <task id="LOCAL-00006" summary="magic sqaure">
+      <created>1670076970409</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670076970409</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

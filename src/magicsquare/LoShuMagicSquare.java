@@ -33,13 +33,11 @@ public class LoShuMagicSquare {
 
         int tempSum = numbers[0][0] + numbers[0][1] + numbers[0][2];
 
-        //compare rows; start from row 1 because tempSum already holds the sum for row 0
         for (int i = 1; i < 3; i++) {
             if (numbers[i][0] + numbers[i][1] + numbers[i][2] != tempSum)
                 return false;
         }
 
-        //compare columns
         for (int i = 0; i < 3; i++) {
             if (numbers[0][i] + numbers[1][i] + numbers[2][i] != tempSum)
                 return false;
