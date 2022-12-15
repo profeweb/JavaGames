@@ -122,6 +122,6 @@ public class Run {
 	}
 
 	public void display(PApplet p5){
-		this.board.displayBoard(p5, 0, 0, p5.width, p5.height);
+		board.displayBoard(p5, 0, 0, p5.width, p5.height);
 	}
 }

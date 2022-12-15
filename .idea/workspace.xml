@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
-      <change beforePath="$PROJECT_DIR$/src/eightQueens/Test_EightQueens_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eightQueens/Test_EightQueens_001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/knightTour/KnightBT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/knightTour/Test_KnighTourBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eightQueens/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eightQueens/Run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knightTour/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightTour/KnightBF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knightTour/KnightTour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightTour/Test_KnightTourBF.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,55 +46,30 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="knightTour" />
       <recent name="magicsquare" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test_EightQueens_001">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tictactoe.App" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tictactoe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EightQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="eightQueens.EightQueens" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="eightQueens.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KnightTour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="knightTour.KnightTour" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="knightTour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test_MagicSquare_002">
     <configuration name="Test_EightQueens_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="eightQueens.Test_EightQueens_001" />
       <module name="JavaGames" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="eightQueens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_KnighTourBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knightTour.Test_KnighTourBT" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knightTour.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +90,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="knightTour.KnightBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knightTour.KnightBT" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knightTour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="knightTour.Test_KnightTourBF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knightTour.Test_KnightTourBF" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knightTour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test_EightQueens_001" />
-        <item itemvalue="Application.EightQueens" />
-        <item itemvalue="Application.KnightTour" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.Test_MagicSquare_002" />
+        <item itemvalue="Application.knightTour.Test_KnighTourBT_001" />
+        <item itemvalue="Application.knightTour.KnightBT" />
+        <item itemvalue="Application.knightTour.Test_KnightTourBF" />
+        <item itemvalue="Application.Test_EightQueens_001" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +141,7 @@
       <workItem from="1670592066399" duration="1859000" />
       <workItem from="1670599574544" duration="1660000" />
       <workItem from="1671118211897" duration="2362000" />
-      <workItem from="1671126259487" duration="1881000" />
+      <workItem from="1671126259487" duration="3866000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -200,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671128020018</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="magic sqaure">
+      <created>1671128200484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128200484</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

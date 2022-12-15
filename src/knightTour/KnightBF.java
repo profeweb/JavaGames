@@ -1,7 +1,7 @@
 package knightTour;
 import java.util.Random;
 
-public class Knight {
+public class KnightBF {
 
 	private static Random rand = new Random();
 	private int curH;
@@ -13,7 +13,7 @@ public class Knight {
     private static int tourCount = 0; //counts all incomplete tours
     private int moveCounter;
     
-    public Knight() {
+    public KnightBF() {
       board = new Board();
     }
     

@@ -1,9 +1,11 @@
 package knightTour;
 
-public class KnightTour {
+public class Test_KnightTourBF {
+
+	// Força Bruta
 
 	public static void main(String[] args) {
-		Knight knight = new Knight();
+		KnightBF knight = new KnightBF();
 		knight.move();
 	}
 
