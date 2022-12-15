@@ -4,6 +4,8 @@ import processing.core.PApplet;
 
 import static processing.core.PConstants.CENTER;
 
+// https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/?ref=lbp
+
 public class KnightBT {
 
     static int N = 8;
@@ -90,7 +92,7 @@ public class KnightBT {
         solveKT();
     }
 
-    // Dibuixa el tauler amb l aruta seguida pel cavall
+    // Dibuixa el tauler amb la ruta seguida pel cavall
     public static void display(PApplet p5) {
         float wCell = p5.width / sol.length;
         float hCell = p5.height / sol[0].length;
