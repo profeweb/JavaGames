@@ -15,12 +15,9 @@ public class Test_EightQueens_001 extends PApplet {
     }
 
     public void setup(){
-
-        background(255);
-
         r = new Run();
         r.PlaceQueens();
         r.display(this);
-
     }
+
 }

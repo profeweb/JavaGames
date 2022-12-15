@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
-      <change afterPath="$PROJECT_DIR$/src/eightQueens/Test_EightQueens_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eightQueens/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eightQueens/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/eightQueens/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eightQueens/Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magicsquare/MagicSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/MagicSquare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magicsquare/MagicSquareN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/MagicSquareN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/magicsquare/Test_MagicSquare_002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/eightQueens/Test_EightQueens_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/eightQueens/Test_EightQueens_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +135,7 @@
       <workItem from="1670592066399" duration="1859000" />
       <workItem from="1670599574544" duration="1660000" />
       <workItem from="1671118211897" duration="2362000" />
-      <workItem from="1671126259487" duration="1540000" />
+      <workItem from="1671126259487" duration="1881000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -193,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670586458978</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="magic sqaure">
+      <created>1671127870559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671127870559</updated>
+    </task>
+    <task id="LOCAL-00009" summary="magic sqaure">
+      <created>1671128020018</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671128020018</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
