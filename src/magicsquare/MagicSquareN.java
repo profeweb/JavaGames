@@ -1,7 +1,6 @@
 package magicsquare;
 
 import processing.core.PApplet;
-
 import java.util.Random;
 
 import static processing.core.PConstants.CENTER;

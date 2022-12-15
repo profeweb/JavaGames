@@ -1,4 +1,7 @@
 package eightQueens;
+import processing.core.PApplet;
+import processing.core.PShape;
+
 import java.util.Random;
 
 public class Run {
@@ -116,5 +119,9 @@ public class Run {
 		}
 		
 		return false;
+	}
+
+	public void display(PApplet p5){
+		this.board.displayBoard(p5, 0, 0, p5.width, p5.height);
 	}
 }

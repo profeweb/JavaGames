@@ -1,7 +1,6 @@
 package magicsquare;
 
 import processing.core.PApplet;
-
 import java.util.Random;
 
 import static processing.core.PConstants.*;
@@ -9,7 +8,9 @@ import static processing.core.PConstants.*;
 public class MagicSquare {
 
     private static Random rand = new Random();
-    int[][] numbers = { { 1, 2, 3 }, { 4, 5, 6 }, { 7, 8, 9 } };
+    int[][] numbers = { { 1, 2, 3 },
+                        { 4, 5, 6 },
+                        { 7, 8, 9 } };
     int counter;
 
     public MagicSquare(){
@@ -66,6 +67,16 @@ public class MagicSquare {
                 p5.fill(0); p5.textAlign(CENTER); p5.textSize(54);
                 p5.text(numbers[f][c], x + c*wCell + wCell/2, y + f*hCell + hCell/2);
             }
+        }
+    }
+
+    public void displayBoard() {
+        System.out.println("-----------");
+        for (int i = 0; i < numbers.length; i++) {
+            for (int c = 0; c < numbers.length; c++) {
+                System.out.print(numbers[i][c] + " ");
+            }
+            System.out.println("");
         }
     }
 

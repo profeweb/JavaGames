@@ -1,6 +1,5 @@
 package magicsquare;
 
-
 import processing.core.PApplet;
 
 public class Test_MagicSquare_002 extends PApplet {
@@ -18,7 +17,6 @@ public class Test_MagicSquare_002 extends PApplet {
                    {10, 12, 19, 21,3},
                    {11, 18, 25, 2, 9}};
 
-
     public static void main(String[] args) {
         PApplet.main("magicsquare.Test_MagicSquare_002", args);
     }
@@ -29,7 +27,7 @@ public class Test_MagicSquare_002 extends PApplet {
 
     public void setup(){
         background(255);
-        m = new MagicSquareN(5);
+        m = new MagicSquareN(5);  //3, 4, 5, ...
         m.setInitial(ok5);
 
         while(!m.IsMagicSquare()) {
