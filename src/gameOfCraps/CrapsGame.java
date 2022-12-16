@@ -2,8 +2,7 @@ package gameOfCraps;
 
 public class CrapsGame {
 
-	private enum DiceSum
-    {
+	private enum DiceSum {
         SNAKE_EYES (2),
         TREY (3),
         SEVEN (7),
@@ -17,11 +16,7 @@ public class CrapsGame {
 		}
     };   
     
-    public enum GameStatus {
-        WIN,
-        LOSE,
-        CONTINUE
-    };
+    public enum GameStatus { WIN, LOSE, CONTINUE };
     
     private RollDice roll;
     private GameStatus gameStatus;
@@ -32,16 +27,13 @@ public class CrapsGame {
     public final static int NUM_GAMES = 5000;
     private Statistics statistics;
     
-    public CrapsGame()
-    {
+    public CrapsGame() {
         roll = new RollDice();
         statistics = new Statistics();
     }
     
-    public void play()
-    {
-    	for (int i = 0; i < NUM_GAMES; i++)
-    	{
+    public void play() {
+    	for (int i = 0; i < NUM_GAMES; i++) {
     		System.out.println("****************************** game # " + (i + 1)); 
     		gameStatus = GameStatus.CONTINUE;
     		numRolls = 0;
@@ -50,8 +42,7 @@ public class CrapsGame {
         	numRolls++;
         	evaluateRoll();
         	displayMessage();  
-        	while(gameStatus == GameStatus.CONTINUE)
-        	{
+        	while(gameStatus == GameStatus.CONTINUE) {
         		keepPlaying();
         		displayMessage();
         	}
@@ -59,29 +50,25 @@ public class CrapsGame {
     	statistics.displayStatistics();
     }
     
-    private void keepPlaying()
-    {
+    private void keepPlaying() {
     	sum = roll.diceRoll();
     	numRolls++;
     	
-    	if (sum == point)
-    	{
+    	if (sum == point) {
     		gameStatus = GameStatus.WIN;
     		statistics.setStats(numRolls, gameStatus);
     	}
-    	else if (sum == 7)
-    	{
+    	else if (sum == 7) {
     		gameStatus = GameStatus.LOSE;
     		statistics.setStats(numRolls, gameStatus);
     	}
-    	else
-    		gameStatus = GameStatus.CONTINUE;
+    	else {
+			gameStatus = GameStatus.CONTINUE;
+		}
     }
     
-    private void displayMessage()
-    {
-    	switch (gameStatus)
-    	{
+    private void displayMessage() {
+    	switch (gameStatus) {
 	    	case WIN:
 	    		System.out.println(numRolls == 1 
 	    		?"Congratulations, you rolled " + diceSum + ". YOU WIN!"
@@ -98,10 +85,8 @@ public class CrapsGame {
     	}
     }
     
-    private void evaluateRoll()
-    {
-    	switch (sum)
-    	{
+    private void evaluateRoll() {
+    	switch (sum) {
     		case 7:
     			diceSum = DiceSum.SEVEN;
     			gameStatus = GameStatus.WIN;
