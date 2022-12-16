@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
-      <change afterPath="$PROJECT_DIR$/src/gameOfCraps/Test_RollDice_001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ratinamess/RatMaze.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameOfCraps/CrapsGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOfCraps/CrapsGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameOfCraps/RollDice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOfCraps/RollDice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gameOfCraps/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameOfCraps/Statistics.java" afterDir="false" />
-    </list>
+    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +137,7 @@
       <workItem from="1671118211897" duration="2362000" />
       <workItem from="1671126259487" duration="4351000" />
       <workItem from="1671196245132" duration="266000" />
-      <workItem from="1671205519504" duration="3040000" />
+      <workItem from="1671205519504" duration="3293000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -230,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671130509851</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="magic sqaure">
+      <created>1671209671131</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1671209671131</updated>
+    </task>
+    <task id="LOCAL-00014" summary="magic sqaure">
+      <created>1671209690863</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671209690863</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
