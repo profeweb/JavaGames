@@ -17,12 +17,12 @@ public class Test_RatMaze_001 extends PApplet {
                       { 1, 1, 0, 0, 1 },
                       { 0, 1, 0, 0, 1 } };
 
-    int maze3[][] = { { 1, 1, 1, 1, 0, 0},
-                      { 1, 0, 1, 1, 1, 0},
+    int maze3[][] = { { 1, 1, 1, 1, 1, 1},
+                      { 1, 0, 1, 0, 0, 0},
                       { 1, 0, 1, 1, 1, 0},
                       { 1, 0, 0, 0, 1, 1},
-                      { 1, 1, 0, 0, 0, 1 },
-                      { 0, 1, 0, 0, 0, 1 } };
+                      { 1, 1, 1, 0, 0, 1 },
+                      { 0, 0, 1, 0, 0, 1 } };
 
     RatMaze rat;
 
@@ -37,8 +37,8 @@ public class Test_RatMaze_001 extends PApplet {
         background(255);
 
         rat = new RatMaze();
-        rat.solveMaze(maze1);
-        rat.displayMaze(this, maze1, rat.sol, margin, margin, width-2*margin, height-2*margin);
+        rat.solveMaze(maze3);
+        rat.displayMaze(this, maze3, rat.sol, margin, margin, width-2*margin, height-2*margin);
         noLoop();
     }
 
