@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure" />
+    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
+      <change afterPath="$PROJECT_DIR$/src/ratinamess/Test_RatMaze_001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/knightTour/KnightBT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/knightTour/KnightBT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ratinamess/RatMaze.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ratinamess/RatMaze.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,38 +44,13 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ratinamess" />
       <recent name="gameOfCraps" />
       <recent name="knightTour" />
       <recent name="magicsquare" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RatMaze">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tictactoe.App" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tictactoe.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GameOfCraps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gameOfCraps.GameOfCraps" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gameOfCraps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test_RatMaze_001">
     <configuration name="RatMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ratinamess.RatMaze" />
       <module name="JavaGames" />
@@ -84,8 +64,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_MagicSquare_002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="magicsquare.Test_MagicSquare_002" />
+    <configuration name="Test_EightQueens_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="eightQueens.Test_EightQueens_001" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="eightQueens.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_KnighTourBT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="knightTour.Test_KnighTourBT" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="knightTour.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_MagicSquare_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="magicsquare.Test_MagicSquare_001" />
       <module name="JavaGames" />
       <extension name="coverage">
         <pattern>
@@ -97,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_RollDice_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gameOfCraps.Test_RollDice_001" />
+    <configuration name="Test_RatMaze_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ratinamess.Test_RatMaze_001" />
       <module name="JavaGames" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="gameOfCraps.*" />
+          <option name="PATTERN" value="ratinamess.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_RatMaze_001" />
         <item itemvalue="Application.RatMaze" />
-        <item itemvalue="Application.Test_RollDice_001" />
-        <item itemvalue="Application.GameOfCraps" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Test_MagicSquare_002" />
+        <item itemvalue="Application.Test_EightQueens_001" />
+        <item itemvalue="Application.Test_KnighTourBT" />
+        <item itemvalue="Application.Test_MagicSquare_001" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +144,18 @@
       <workItem from="1671126259487" duration="4351000" />
       <workItem from="1671196245132" duration="266000" />
       <workItem from="1671205519504" duration="3293000" />
+      <workItem from="1671209767331" duration="35000" />
+      <workItem from="1671212175408" duration="8000" />
+      <workItem from="1671266456575" duration="772000" />
+      <workItem from="1671351156373" duration="594000" />
+      <workItem from="1671435413826" duration="474000" />
+      <workItem from="1671448762390" duration="143000" />
+      <workItem from="1671532014642" duration="948000" />
+      <workItem from="1671560187031" duration="1831000" />
+      <workItem from="1671696298710" duration="958000" />
+      <workItem from="1671697289218" duration="365000" />
+      <workItem from="1671701926182" duration="15000" />
+      <workItem from="1673250400107" duration="2450000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -237,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671209690863</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="magic sqaure">
+      <created>1671209795214</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671209795214</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

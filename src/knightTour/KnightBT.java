@@ -10,8 +10,8 @@ public class KnightBT {
 
     static int N = 8;
     static int sol[][];
-    static int startX = 3;
-    static int startY = 5;
+    static int startX = 5;
+    static int startY = 3;
 
     // A utility function to check if i,j are valid indexes for N*N chessboard
     public static boolean isSafe(int x, int y, int sol[][]) {
