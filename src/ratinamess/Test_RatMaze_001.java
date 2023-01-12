@@ -41,8 +41,8 @@ public class Test_RatMaze_001 extends PApplet {
         rat = new RatMaze();
 
         // Canviar el maze (1, 2 o 3)
-        rat.solveMaze(maze3);
-        rat.displayMaze(this, maze3, rat.sol, margin, margin, width-2*margin, height-2*margin);
+        rat.solveMaze(maze1);
+        rat.displayMaze(this, maze1, rat.sol, margin, margin, width-2*margin, height-2*margin);
 
         noLoop();
     }
