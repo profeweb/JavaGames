@@ -6,6 +6,8 @@ public class Test_RatMaze_001 extends PApplet {
 
     float margin = 20;
 
+    // Diferents laberints (1: camí /  0: paret).
+
     int maze1[][] = { { 1, 1, 0, 0 },
                      { 1, 1, 0, 1 },
                      { 0, 1, 0, 0 },
@@ -37,8 +39,11 @@ public class Test_RatMaze_001 extends PApplet {
         background(255);
 
         rat = new RatMaze();
+
+        // Canviar el maze (1, 2 o 3)
         rat.solveMaze(maze3);
         rat.displayMaze(this, maze3, rat.sol, margin, margin, width-2*margin, height-2*margin);
+
         noLoop();
     }
 
