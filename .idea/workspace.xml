@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="magic sqaure">
+    <list default="true" id="4f1b275e-22b7-44ef-b590-0e82a34058a5" name="Changes" comment="rat in a maze">
+      <change afterPath="$PROJECT_DIR$/src/HanoiTowers/Disc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HanoiTowers/HanoiTowers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HanoiTowers/Tower.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ratinamess/Test_RatMaze_001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ratinamess/Test_RatMaze_001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,20 @@
       <recent name="magicsquare" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test_RatMaze_001">
+  <component name="RunManager" selected="Application.HanoiTowers">
+    <configuration name="HanoiTowers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HanoiTowers.HanoiTowers" />
+      <module name="JavaGames" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HanoiTowers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RatMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ratinamess.RatMaze" />
       <module name="JavaGames" />
@@ -88,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_MagicSquare_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="magicsquare.Test_MagicSquare_001" />
-      <module name="JavaGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="magicsquare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test_RatMaze_001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ratinamess.Test_RatMaze_001" />
       <module name="JavaGames" />
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HanoiTowers" />
         <item itemvalue="Application.Test_RatMaze_001" />
         <item itemvalue="Application.RatMaze" />
         <item itemvalue="Application.Test_EightQueens_001" />
         <item itemvalue="Application.Test_KnighTourBT" />
-        <item itemvalue="Application.Test_MagicSquare_001" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +157,10 @@
       <workItem from="1671701926182" duration="15000" />
       <workItem from="1673250400107" duration="3292000" />
       <workItem from="1673367316993" duration="833000" />
-      <workItem from="1673543442359" duration="815000" />
+      <workItem from="1673543442359" duration="845000" />
+      <workItem from="1675073164157" duration="192000" />
+      <workItem from="1675151990100" duration="646000" />
+      <workItem from="1684392863289" duration="2122000" />
     </task>
     <task id="LOCAL-00001" summary="magic sqaure">
       <created>1670073221496</created>
@@ -283,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673543601286</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="rat in a maze">
+      <created>1673544282384</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673544282384</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -302,6 +314,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="magic sqaure" />
-    <option name="LAST_COMMIT_MESSAGE" value="magic sqaure" />
+    <MESSAGE value="rat in a maze" />
+    <option name="LAST_COMMIT_MESSAGE" value="rat in a maze" />
   </component>
 </project>
