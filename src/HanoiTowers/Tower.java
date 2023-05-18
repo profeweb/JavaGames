@@ -15,9 +15,8 @@ public class Tower {
     }
 
     public void addDisc(Disc d){
-
         for(int i=discos.length-1; i>=0; i--){
-            if(discos[i]==null){
+            if(discos[i] == null){
                 discos[i] = d;
                 break;
             }
@@ -26,8 +25,10 @@ public class Tower {
 
     public Disc extractDisc(){
         for(int i=0; i<discos.length; i++){
-            if(discos[i]!=null){
-                return discos[i];
+            if(discos[i] != null){
+                Disc d = discos[i];
+                discos[i] = null;
+                return d;
             }
         }
         return null;
